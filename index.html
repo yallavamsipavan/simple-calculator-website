@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <input type="text" id="display">
+            <div id="key">
+                <div class="row">
+                    <button class="op" onclick="appendToDisplay('+')">+</button>
+                    <button class="num" onclick="appendToDisplay('7')">7</button>
+                    <button class="num" onclick="appendToDisplay('8')">8</button>
+                    <button class="num" onclick="appendToDisplay('9')">9</button>
+                </div>
+                <div class="row">
+                    <button class="op" onclick="appendToDisplay('-')">-</button>
+                    <button class="num" onclick="appendToDisplay('4')">4</button>
+                    <button class="num" onclick="appendToDisplay('5')">5</button>
+                    <button class="num" onclick="appendToDisplay('6')">6</button>
+                </div>
+                <div class="row">
+                    <button class="op" onclick="appendToDisplay('*')">*</button>
+                    <button class="num" onclick="appendToDisplay('1')">1</button>
+                    <button class="num" onclick="appendToDisplay('2')">2</button>
+                    <button class="num" onclick="appendToDisplay('3')">3</button>
+                </div>
+                <div class="row">
+                    <button class="op" onclick="appendToDisplay('/')">/</button>
+                    <button class="num" onclick="appendToDisplay('.')">.</button>
+                    <button class="num" onclick="appendToDisplay('0')">0</button>
+                    <button class="num" onclick="calculate('=')">=</button>
+                </div>
+                <div class="row">
+                    <button class="op" onclick="appendToDisplay('%')">%</button>
+                    <button class="num" onclick="squareRoot()">√</button>
+                    <button class="num" onclick="appendToDisplay('π')">π</button>
+                    <button class="num" onclick="clearDisplay('C')">C</button>
+                </div>
+            </div>
+        </div>
+        <script src="calcscript.js"></script>
+    </body>
+</html>
