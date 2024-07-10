@@ -1,0 +1,3 @@
+--> Simple and Basic Calculator using advanced CSS animations;
+--> Highly user interactive interface;
+--> Prerequisites: HTML5, CSS & JS;
